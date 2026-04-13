@@ -1,0 +1,17 @@
+{
+  "name": "gender-classify-api",
+  "version": "1.0.0",
+  "description": "A REST API endpoint that classifies gender from a name using the Genderize.io API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
